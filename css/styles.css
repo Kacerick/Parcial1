@@ -92,10 +92,10 @@ nav a:hover {
     max-width: 650px;
     margin-bottom: 1.8rem;
     color: var(--texto);
-    font-size: 0.75rem;
+    font-size: 1.15rem;
 }
 
-.hero > img {
+.hero>img {
     width: min(100%, 470px);
     justify-self: center;
 }
@@ -146,6 +146,7 @@ footer {
 }
 
 @media (max-width: 760px) {
+
     .encabezado,
     nav {
         flex-direction: column;
